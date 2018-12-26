@@ -1,0 +1,17 @@
+{
+  "check-coverage": false,
+  "per-file": true,
+  "reporter": [
+    "html"
+  ],
+  "report-dir": "./coverage",
+  "cache": false,
+  "include": [
+    "esm/between.js",
+    "esm/getMimeType.js",
+    "esm/saveAsFile.js",
+    "esm/saveAsFileSync.js"
+  ],
+  "skip-empty": true,
+  "skip-full": true
+}

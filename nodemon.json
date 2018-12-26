@@ -1,0 +1,24 @@
+{
+  "events": {
+    "restart": "node ./scripts/clean-console"
+  },
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "coverage"
+  ],
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "watch": [
+    "src/debug.js",
+    "src/between.js",
+    "src/getMimeType.js",
+    "src/saveAsFile.js",
+    "src/saveAsFileSync.js"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js,json"
+}

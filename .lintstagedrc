@@ -1,0 +1,20 @@
+{
+  "linters": {
+    "src/saveAsFile.js": [
+      "npx eslint --cache",
+      "yarn test"
+    ],
+    "src/saveAsFileSync.js": [
+      "npx eslint --cache",
+      "yarn test"
+    ],
+    "src/getMimeType.js": [
+      "npx eslint --cache",
+      "yarn test"
+    ]
+  },
+  "ignore": [
+    "**/scripts/**",
+    "**/coverage/**"
+  ]
+}

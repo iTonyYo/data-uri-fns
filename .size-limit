@@ -1,0 +1,11 @@
+[
+  {
+    path: [
+      "esm/index.js",
+    ],
+    limit: "512 B",
+    ignore: [
+      "fs"
+    ]
+  }
+]

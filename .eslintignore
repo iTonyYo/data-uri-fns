@@ -1,0 +1,9 @@
+esm/**
+
+scripts/**
+coverage/**
+
+test/**
+*-test.js
+
+dev.js
