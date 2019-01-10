@@ -72,5 +72,14 @@
   },
   "description": "统一资源标识符工具箱。",
   "private": false,
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/iTonyYo/data-uri-fns.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/iTonyYo/data-uri-fns",
+  "bugs": "https://github.com/iTonyYo/data-uri-fns/issues",
+  "publishConfig": {
+    "access": "public"
+  }
 }
