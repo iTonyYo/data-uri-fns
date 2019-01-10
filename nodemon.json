@@ -11,7 +11,7 @@
     "js": "node --harmony"
   },
   "watch": [
-    "src/debug.js",
+    "src/dev.js",
     "src/between.js",
     "src/getMimeType.js",
     "src/saveAsFile.js",
