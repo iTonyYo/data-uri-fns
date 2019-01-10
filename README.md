@@ -1,4 +1,4 @@
-# `data-uri-fns`
+# `@oopsunome/data-uri-fns`
 目标是，为 ["data" URL](https://tools.ietf.org/html/rfc2397) 提供最全面、最简单、最一致的工具集。
 
 > 暂时仅支持 [Node.js][Node]。
@@ -19,10 +19,10 @@
 
 ```shell
 # 使用 NPM
-npm install data-uri-fns
+npm install @oopsunome/data-uri-fns lodash
 
 # 使用 Yarn
-yarn add data-uri-fns
+yarn add @oopsunome/data-uri-fns lodash
 ```
 
 ## 使用
@@ -32,7 +32,7 @@ yarn add data-uri-fns
 从 [统一资源标识符](https://en.wikipedia.org/wiki/Uniform_resource_identifier) 中获取媒体类型。
 
 ```javascript
-import { getMimeType } from 'data-uri-fns';
+import { getMimeType } from '@oopsunome/data-uri-fns';
 
 // 省略大量 base64 数据
 const base64DataURI = 'data:image/png;base64,iVBOR...';
@@ -99,7 +99,7 @@ saveAsFileSync({
 
 **安装依赖**
 
-[`data-uri-fns`][data-uri-fns] 使用 [`Yarn`](https://yarnpkg.com/zh-Hans/) 包管理器，执行 `yarn install` 安装依赖。
+[`@oopsunome/data-uri-fns`][@oopsunome/data-uri-fns] 使用 [`Yarn`](https://yarnpkg.com/zh-Hans/) 包管理器，执行 `yarn install` 安装依赖。
 
 **开始开发**
 
@@ -125,7 +125,7 @@ yarn test
 
 ## 证书
 
-[`data-uri-fns`][data-uri-fns] 获得了 MIT 许可，仔细查阅 [LICENSE.md][证书] 以了解详情。
+[`@oopsunome/data-uri-fns`][@oopsunome/data-uri-fns] 获得了 MIT 许可，仔细查阅 [LICENSE.md][证书] 以了解详情。
 
 ## 待办
 
@@ -137,7 +137,7 @@ yarn test
 - [X] ESlint 检测；
 - [X] 自动化生成所有依赖的开源证书；
 - [ ] 更新日志
-- [ ] 谁在使用 [`data-uri-fns`][data-uri-fns]
+- [ ] 谁在使用 [`@oopsunome/data-uri-fns`][@oopsunome/data-uri-fns]
 - [ ] 完善 [贡献指南][贡献指南]
 - [ ] 使用 [David DM](https://david-dm.org/) 实现 `依赖是否最新` 检测；
 - [ ] 使用 [Travis CI](https://travis-ci.org/) 实现持续集成；
@@ -149,7 +149,7 @@ yarn test
 - [ ] 文档：维护策略
 - [ ] 性能测试；
 
-[贡献指南]: #
-[证书]: #
+[贡献指南]: https://github.com/iTonyYo/data-uri-fns/blob/master/CONTRIBUTING.md
+[证书]: https://github.com/iTonyYo/data-uri-fns/blob/master/LICENSE.md
 [Node]: https://nodejs.org/
-[data-uri-fns]: #
+[@oopsunome/data-uri-fns]: https://github.com/iTonyYo/data-uri-fns
