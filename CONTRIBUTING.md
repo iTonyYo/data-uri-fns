@@ -2,7 +2,7 @@
 
 首先，感谢你考虑为 [`data-uri-fns`][data-uri-fns] 做出贡献！正是像您这样的人，使得 [`data-uri-fns`][data-uri-fns] 成为一个非常好的工具。:tada::+1:
 
-[data-uri-fns]: #
+[data-uri-fns]: https://github.com/iTonyYo/data-uri-fns
 
 遵循这些原则有助于传达您对其它开发人员时间上的尊重。作为回报，他们会及时解决您的问题、评估更改和帮助您最终确定 pull 请求等方面。
 
@@ -59,6 +59,21 @@ feat(新功能): 一个新功能
 新功能: :tada: 一个新功能
 ```
 
+**变更**，:m:
+```shell
+变更: :m: 对现有功能的变更。
+```
+
+**弃用**，:man_zombie:
+```shell
+弃用: :man_zombie: 已经不建议使用，准备很快移除的功能。
+```
+
+**安全**，:shield:
+```shell
+安全: :shield: 对安全的新增、改进、修改等。
+```
+
 **修复**，:bug:
 ```shell
 修复: :bug: 一个问题的修复
@@ -101,12 +116,12 @@ feat(新功能): 一个新功能
 
 #### 可补充使用的 Emoji
 
+* :beginner: `:beginner:` 第一次提交
 * :penguin: `:penguin:` 修复在 Linux 上的问题
 * :apple: `:apple:` 修复在 macOS 上的问题
 * :checkered_flag: `:checkered_flag:` 修复在 Windows
  上的问题
 * :green_heart: `:green_heart:` 修复持续集成工具的报错
-* :lock: `:lock:` 处理安全方面的新增、改进、修改
 * :arrow_up: `:arrow_up:` 升级依赖
 * :arrow_down: `:arrow_down:` 降级依赖
 
