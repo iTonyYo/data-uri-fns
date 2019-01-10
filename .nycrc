@@ -12,6 +12,7 @@
     "esm/saveAsFile.js",
     "esm/saveAsFileSync.js"
   ],
+  "all": true,
   "skip-empty": true,
   "skip-full": true
 }
